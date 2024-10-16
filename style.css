@@ -17,6 +17,14 @@ main {
 	/* height: 400px; */
 }
 
+@media screen and (max-width:375px) {
+	.column-list{
+		display:block;
+		width: 700px;
+		margin: 0 auto;
+	}
+	
+}
 .column-1 {
 	background-color: hsl(31, 77%, 52%);
 	padding: 38px;
